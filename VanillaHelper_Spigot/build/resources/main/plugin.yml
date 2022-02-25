@@ -1,0 +1,17 @@
+name: VanillaHelper
+main: me.nelson131.vanillahelper.VanillaHelper
+version: 1.0.0
+api-version: 1.18
+description: Simple Vanilla Helper for your spigot server
+author: nelson131
+website: github.com/nelson131
+commands:
+  admin:
+    description: admins cmds
+    usage: /admin <restart:clearchat>
+  plstatus:
+    description: command to check status of plugin
+    usage: /<command>
+    aliases: [ps]
+  ping:
+    description: command to show ping
